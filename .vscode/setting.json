@@ -1,0 +1,7 @@
+{
+    "python.languageServer": "Pylance",
+    "python.analysis.typeCheckingMode": "strict",
+    "editor.fontSize": 30,
+    "files.autoSave": true,
+    "editor.mouseWheelZoom": true
+}
