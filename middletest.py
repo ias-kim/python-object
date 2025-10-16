@@ -22,14 +22,14 @@ class Student:
 
     # 클래스 메서드
     @classmethod
-    def get_id_count(cls):
-        return (Student.__id_count)
+    def get_id_count(cls): 
+        return Student.__id_count
     
     # 정적 메서드
     @staticmethod
     def get_avg(arg1, arg2, arg3):
         sum = arg1 + arg2 + arg3
-        return (sum / 3.0)
+        return sum / 3.0
 
 # 객체 생성
 s1 = Student("Alice", 0, "F")
