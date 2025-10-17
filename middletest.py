@@ -23,7 +23,7 @@ class Student:
     # 클래스 메서드
     @classmethod
     def get_id_count(cls): 
-        return Student.__id_count
+        return cls.__id_count
     
     # 정적 메서드
     @staticmethod
