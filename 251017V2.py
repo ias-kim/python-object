@@ -6,7 +6,6 @@ from typing import List
 from typing_extensions import LiteralString
 
 x: List = [1, 2, 3] # Legacy -> 예전 방식
-x: list = [1, 2, 3]
 
 def get_total_avg(x: int, y: int) -> tuple:
     sum = x + y
@@ -41,7 +40,7 @@ x_seq_int = (1, 2)
 # Union -> 집합의 원소 중 하나이면 -> Ok, 모두 해당되지 않으면 에러
 from typing import Union
 # x_new: int | float -> 최신 버전
-x: Union[int, float, bool]
+# x: Union[int, float, bool]
 x = 2
 x = 3.0
 x = False
